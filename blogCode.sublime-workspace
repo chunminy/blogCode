@@ -43,13 +43,29 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "pack",
+		"height": 367.0,
+		"last_filter": "list",
 		"selected_items":
 		[
 			[
-				"pack",
+				"list",
 				"Package Control: List Packages"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
 			],
 			[
 				"instal",
@@ -64,7 +80,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 485.0
+		"width": 494.0
 	},
 	"console":
 	{
@@ -85,10 +101,20 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Dreaming/blogCode"
+		"/Users/Dreaming/blogCode",
+		"/Users/Dreaming/blogCode/scaffolds",
+		"/Users/Dreaming/blogCode/source",
+		"/Users/Dreaming/blogCode/source/_posts"
 	],
 	"file_history":
 	[
+		"/Users/Dreaming/blogCode/source/_posts/2016_05_24_00.md",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/User/OmniMarkupPreviewer.sublime-settings",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/OmniMarkupPreviewer/Default (OSX).sublime-keymap",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.sublime-settings",
+		"/Users/Dreaming/blogCode/blogCode.sublime-project",
+		"/Users/Dreaming/blogCode/themes/landscape/layout/_partial/footer.ejs",
+		"/Users/Dreaming/work/unity/Mario/Mario.sublime-project",
 		"/Users/Dreaming/work/unity/2DMinecraft/Assets/Scripts/PlayerAttack.cs",
 		"/Users/Dreaming/work/unity/2DMinecraft/Assets/Scripts/PlayerMovement.cs",
 		"/Users/Dreaming/blogCode/package.json",
@@ -99,7 +125,6 @@
 		"/Users/Dreaming/work/unity/2DPlatformer/Assets/Scripts/PlayerControl.cs",
 		"/Users/Dreaming/work/unity/2DMinecraft/Assets/script/PlayerMovement.cs",
 		"/Users/Dreaming/work/unity/2DMinecraft/Assets/script/NewBehaviourScript.cs",
-		"/Users/Dreaming/work/unity/Mario/Mario.sublime-project",
 		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/Unity3D Build System/Unity.sublime-build",
 		"/Users/Shared/Unity/Mario/Assets/Scripts/Player/PlayerHealth.cs",
 		"/Users/Shared/Unity/Mario/Assets/Scripts/Player/PlayerMovement.cs",
@@ -156,7 +181,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -234,8 +259,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 231.0,
+	"side_bar_visible": false,
+	"side_bar_width": 206.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

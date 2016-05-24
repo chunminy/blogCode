@@ -1,0 +1,243 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"eq",
+				"Equals(float obj)	bool"
+			],
+			[
+				"jum",
+				"jumpSpeed	float"
+			],
+			[
+				"vec",
+				"Vector3	Vector3"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					""
+				],
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Unity3D Build System/Unity.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packli",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Dreaming/blogCode"
+	],
+	"file_history":
+	[
+		"/Users/Dreaming/work/unity/2DMinecraft/Assets/Scripts/PlayerAttack.cs",
+		"/Users/Dreaming/work/unity/2DMinecraft/Assets/Scripts/PlayerMovement.cs",
+		"/Users/Dreaming/blogCode/package.json",
+		"/Users/Dreaming/blogCode/_config.yml",
+		"/Users/Dreaming/work/unity/sublimeTest/Assets/Script/MoveTest.cs",
+		"/Users/Dreaming/work/unity/2DMinecraft/Assembly-CSharp.csproj",
+		"/Users/Dreaming/work/unity/2DMinecraft/2DMinecraft.sublime-project",
+		"/Users/Dreaming/work/unity/2DPlatformer/Assets/Scripts/PlayerControl.cs",
+		"/Users/Dreaming/work/unity/2DMinecraft/Assets/script/PlayerMovement.cs",
+		"/Users/Dreaming/work/unity/2DMinecraft/Assets/script/NewBehaviourScript.cs",
+		"/Users/Dreaming/work/unity/Mario/Mario.sublime-project",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/Unity3D Build System/Unity.sublime-build",
+		"/Users/Shared/Unity/Mario/Assets/Scripts/Player/PlayerHealth.cs",
+		"/Users/Shared/Unity/Mario/Assets/Scripts/Player/PlayerMovement.cs",
+		"/Users/Shared/Unity/Mario/Mario.sublime-project",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/Users/Shared/Unity/Mario/untitled.sublime-project",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/Shared/Unity/Mario/Assets/untitled.sublime-project",
+		"/Users/Shared/Unity/Mario/Assets/MyWindowEditor/Editor/ModelCreater.cs"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"grounded",
+			"_test"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 207.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "blogCode.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

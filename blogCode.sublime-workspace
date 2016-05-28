@@ -19,6 +19,28 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "---\ntitle: 砍掉重來\ndate: 2016-05-24 15:31:06\ntags:\n- Unity\n- Game\n\ncategories:\n- Programs\n---\n\n聽說最近流行一個晚上就可以做完的project\n===================``\n\n早些年在玩Minecraft時就簡單寫了一套Minecraft基本系統玩玩，最近玩了PS4上的[DBQ][DQBLink]之後心癢難耐，就把之前的系統拿出來整理一下，不過素材都是公司資產所以就不方便拿來測試。\n\n基於最近回去複習了Unity，而最快的方式就是寫個小專案來恢復記憶，所以乾脆就用Unity搭配之前寫的小系統，在稍微串接一下角色移動、UI事件、物理碰撞、攝影機追蹤這些功能，簡略地寫了一個小小的Demo來玩玩。\n\n手機上跑起來的效果大概就這樣吧\n\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-q6qENlF0y4\" frameborder=\"0\" allowfullscreen></iframe>\n\n[DQBLink]:http://www.dragonquest.jp/builders/\n\n\n\n\n\n\n",
+			"file": "source/_posts/2016_05_24_00.md",
+			"file_size": 930,
+			"file_write_time": 131086171680000000,
+			"settings":
+			{
+				"buffer_size": 546,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\ntitle: 'sublime text 移除空白'\ndate: 2016-05-28 12:04:50\ntags:\n- sublime text\n\ncategories:\n- Tool\n---\n\n為了避免下意識多按的空白鍵造成程式碼夾帶多餘的空白，翻找了一下sublime text的設定</br>只需要在 `Preferences->Settings-User` 調整參數就可以了\n\n\n    \"trim_trailing_white_space_on_save\": true,\n    \"draw_white_space\": \"all\",\n    \"translate_tabs_to_spaces\": true,\n    \"tab_size\": 4,\n\n\n\n##trim_trailing_white_space_on_save\n在存檔時會自動刪除每一行後面多餘的空白\n\n\n##draw_white_space \n會直接顯示出空白或是Tab，這樣就可以分辨到底哪邊是空白哪邊是Tab了\n\n\n##translate_tabs_to_spaces\n按Tab時自動轉成空白鍵\n\n\n###tab_size\n每次案tab代表幾個空白",
+			"file": "source/_posts/2016-05-28-00.md",
+			"file_size": 750,
+			"file_write_time": 131088868360000000,
+			"settings":
+			{
+				"buffer_size": 519,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -43,13 +65,37 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 367.0,
-		"last_filter": "list",
+		"height": 392.0,
+		"last_filter": "ins",
 		"selected_items":
 		[
 			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				"list",
 				"Package Control: List Packages"
+			],
+			[
+				"inste",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
 			],
 			[
 				"install pa",
@@ -80,13 +126,27 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 494.0
+		"width": 521.0
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 226.0,
 		"history":
 		[
+			"help()",
+			"help",
+			"exit()",
+			"quit",
+			"exit",
+			"çç",
+			"--h",
+			"help",
+			"test",
+			"help()",
+			"help",
+			"ls",
+			"cd ",
+			"test",
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -108,7 +168,12 @@
 	],
 	"file_history":
 	[
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/Dreaming/blogCode/source/_posts/2016_05_24_00.md",
+		"/Users/Dreaming/blogCode/_config.yml",
 		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/User/OmniMarkupPreviewer.sublime-settings",
 		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/OmniMarkupPreviewer/Default (OSX).sublime-keymap",
 		"/Users/Dreaming/Library/Application Support/Sublime Text 3/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.sublime-settings",
@@ -118,7 +183,6 @@
 		"/Users/Dreaming/work/unity/2DMinecraft/Assets/Scripts/PlayerAttack.cs",
 		"/Users/Dreaming/work/unity/2DMinecraft/Assets/Scripts/PlayerMovement.cs",
 		"/Users/Dreaming/blogCode/package.json",
-		"/Users/Dreaming/blogCode/_config.yml",
 		"/Users/Dreaming/work/unity/sublimeTest/Assets/Script/MoveTest.cs",
 		"/Users/Dreaming/work/unity/2DMinecraft/Assembly-CSharp.csproj",
 		"/Users/Dreaming/work/unity/2DMinecraft/2DMinecraft.sublime-project",
@@ -137,7 +201,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -151,6 +215,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tag",
+			"color_scheme",
+			"trim_trailing_white_space_on_save",
+			"skin",
 			"grounded",
 			"_test"
 		],
@@ -170,8 +238,185 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "source/_posts/2016_05_24_00.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 546,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/_posts/2016-05-28-00.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -240,6 +485,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/work/unity/ChronosGate/ChronosGate.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
@@ -259,7 +508,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 206.0,
 	"status_bar_visible": true,
 	"template_settings":
